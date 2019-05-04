@@ -1,51 +1,51 @@
-* {
-    text-decoration: none;
-    margin: 0;
+* { /*Применяется для всего*/
+    text-decoration: none;/*Текст без примочек*/
+    margin: 0;/*Без отступов*/
 }
-a {
-    text-decoration: none;
-    color: #000080;
+a { /*Ссылки*/
+    text-decoration: none;/*Текст без примочек*/
+    color: #000080;/*Цвет синий*/
 }
-a:hover {
-    border: 1px solid #000080;
+a:hover { /*Ссылки при наведении*/
+    border: 1px solid #000080; /*Обводка 1 толщиной пиксель синего цвета*/
 }
-.header {
-    width: 100%;
-    height: 10%;
-    background: #000080;
+.header { /*Шапка*/
+    width: 100%;/*Ширина*/
+    height: 10%;/*Высота*/
+    background: #000080;/*Цвет фона синий*/
 }
-#h_text {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 1.28%;
+#h_text { /*Текст в шапке*/
+    font-family: 'Courier New', Courier, monospace;/*Шрифт корьер*/
+    font-size: 28px;/*Размер шрифта 28 пикселей*/
+    color: #ffffff;/*Цвет текста*/
+    text-align: center;/*Выравнивание текста по центру*/
+    padding-top: 1.28%;/*Отступ от верха блока 1.28%*/
 }
-.s_header {
-    width: 100%;
-    height: 5%;
-    background: #000000;
+.s_header { /*Вторая шапка типа секонд*/
+    width: 100%;/*Ширина*/
+    height: 5%;/*Высота*/
+    background: #000000;/*Цвет фона*/
 }
-#s_h_text {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 14px;
-    color: #ffffff;
-    text-align: center;
-    padding-top: 0.548372281337%;
+#s_h_text { /*Текст во второй шапке*/
+    font-family: 'Courier New', Courier, monospace;/*Шрифт корьер*/
+    font-size: 14px;/*Размер шрифта 14 пикселей*/
+    color: #ffffff;/*Цвет текста*/
+    text-align: center;/*Выравнивание текста по центру*/
+    padding-top: 0.548372281337%;/*Отступ от верхней части блока*/
 }
-.content {
-    min-height: 85%;
-    width: 70%;
-    background: #2d2d2d2d;
-    margin-left: auto;
-    margin-right: auto;
+.content { /*Контент*/
+    min-height: 85%;/*Минимальная высота*/
+    width: 70%;/*Ширина*/
+    background: #2d2d2d2d;/*Цвет фона*/
+    margin-left: auto;/*Отступ слева автоматический*/
+    margin-right: auto;/*Отступ справа автоматический*/
 }
-#c_text {
-    margin-left: auto;
-    width: 95%;
-    margin-right: auto;
-    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #000080;
-    text-align: justify;
-    padding-top: 2.5%;
+#c_text { /*Текст в контенте*/
+    margin-left: auto;/*Отступ слева автоматический*/
+    width: 95%;/*Ширина*/
+    margin-right: auto;/*Отступ справа автоматический*/
+    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;/*Шрифт корьер*/
+    color: #000080;/*Цвет текста*/
+    text-align: justify;/*Выравнивание текста по ширине блока*/
+    padding-top: 2.5%;/*Отступ сверху 2.5%*/
 }
